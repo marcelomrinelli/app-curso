@@ -1,0 +1,179 @@
+Introducción a la Electricidad
+IdEOnTec
+Conceptos básicos
+1
+
+INTRODUCCIÓN
+La materia está compuesta por pequeñas partículas llamadas átomos. estos están compuestos de un núcleo con partículas neutras, llamados neutrones y partículas cargadas positivamente llamadas protones, en órbitas alrededor de este núcleo giran electrones, que tienen una carga eléctrica negativa. Cuando estos electrones se mueven de un lugar a otro, se produce una corriente eléctrica.
+Núcleo con protones y neutrones
+2
+
+Voltaje - Diferencia de potencial
+Para que los electrones circulen en un conductor, como se ve en la figura, es necesario aplicarle un campo eléctrico, este campo eléctrico es provisto por una tensión o diferencia de potencial entre los extremos del conductor. La tensión o voltaje se mide en voltios (V). 
+La circulación de los electrones en el conductor se denomina corriente eléctrica, es la cantidad de electrones que pasan por segundo y se mide en ampere (A).
+La corriente convencional se representa circulando de positivo a negativo.
+
+-
+-
+-
+-
+-
+-
+V (voltios)
+I (amper)
+3
+
+Resistencia - Ley de Ohm
+La resistencia eléctrica es la oposición que ofrece un material al flujo de corriente eléctrica. Los materiales que ofrecen baja resistencia al paso de la corriente se denominan conductores y en general son metales como el cobre, aluminio, oro, platino, etc.
+Los materiales que se oponen al paso de la corriente se denominan aislantes como el vidrio, plástico, loza,  etc. y los materiales que poseen resistencia intermedia se denominan semiconductores como el silicio y germanio que se utilizan par construir dispositivos electrónicos: transistores, diodos, microcontroladores o circuitos integrados.
+La relación entre el potencial eléctrico y la corriente eleçtrca la determina la ley de ohm: donde la relación entre la tension y la corriente es la resistencia R = V/I se mide en ohm (Ω).
+
+V (voltios)
+I (amper)
+R
+Símbolos
+Pila 
+R
+V
+4
+
+Ejemplos de circuito
+Circuito serie con una pila de 1,5 V y una resistencia de 10 Ω, calculamos la corriente por el circuito
+
+R
+V
+Aplicando la ley de ohm la corriente por el circuito es de 0,15 amperes si lo pasamos a miliamperes nos queda 150 mA
+
+I
+
+
+La potencia eléctrica se define como la energía consumida por un elemento por unidad de tiempo. La potencia P, se mide en watts (W) y se calcula como el producto de la corriente I, por la tensión V, entonces:
+
+
+
+
+
+5
+
+Circuitos en serie y paralelo
+R1
+R2
+Resistencias en paralelo
+R1
+R2
+resistencia 
+equivalente
+6
+Resistencias en serie
+resistencia 
+equivalente
+
+Código de colores de Resistencias
+7
+Color
+Dígito
+Multiplicador
+Negro
+0
+1
+Marrón
+1
+10
+Rojo
+2
+100
+Naranja
+3
+1K
+Amarillo
+4
+10K
+Verde
+5
+100K
+Azul
+6
+1M
+Violeta
+7
+10M
+Gris
+8
+100M
+Blanco
+9
+1G
+Dorado
+-
+5%
+Plateado
+-
+10%
+1º dígito
+2º dígito
+multiplicador
+2º dígito
+1
+0
+x100
+5%
+1000 Ω ±  5% = 1 KΩ
+
+Tipos de Resistencias
+8
+Elemento
+símbolo
+Resistencia fija
+Potenciómetro
+
+Leyes de Kirchoff de tensión
+9
+VR1
+VR2
+VR3
+VT
+i
+i
+La sumatoria de tensiones en una malla cerrada es igual a 0 o la sumatoria de tensiones parciales es igual a la de la fuente
+En un circuito serie la corrientes es la misma en todos las resistencias
+
+Ley de Kirchoff de corriente
+10
+I1
+I2
+I3
+IT
+I1
+I2
+I3
+IR2
+IR1
+IR3
+IT
+IT
+Nodo
+
+11
+
+CC y CA
+La tensión y corriente proveniente de una pila o batería es de corriente continua (CC) o sea que no varía en función del tiempo.
+
+
+
+La tensión y corriente alterna es la que varía en función del tiempo y sus características se definen por la frecuencia, el periodo, la amplitud y su forma de onda.
+https://www.electricaltechnology.org/2019/05/rms-value-average-value-peak-value-instantiations-value-form-factor-peak-factor.html
+12
+v/i
+t
+su sìmbolo es
+
+Práctica I
+Materiales:
+13
+
+Multímetro
+14
+Tensión CC
+Resistencia
+Tensión alterna
+Corriente
