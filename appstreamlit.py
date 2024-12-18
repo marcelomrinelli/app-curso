@@ -5,9 +5,16 @@ import streamlit as st
 
 
 # Mensaje de entrada del usuario
+openai.api_key = "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"
+
+
 
 # Ruta a la carpeta con los documentos
-ruta_carpeta = r"D:\Datos Usuario\Desktop\curso-electronica"
+ruta_carpeta = "/workspaces"
+def actualizar(): 
+    st.write("Actualizando la aplicación...") 
+    time.sleep(2) # Simula un proceso que toma tiempo 
+    st.experimental_rerun() # Vuelve a ejecutar el script
 
 def cargar_documentos(ruta):
     """
