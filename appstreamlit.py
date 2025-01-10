@@ -4,7 +4,7 @@ import streamlit as st
 import requests
 
 # Mensaje de entrada del usuario
-#openai.api_key = 
+
 
 # Configuración del repositorio de GitHub
 usuario_github = "marcelomrinelli"  # Tu nombre de usuario en GitHub
