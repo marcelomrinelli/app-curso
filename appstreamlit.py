@@ -4,7 +4,7 @@ import streamlit as st
 import requests
 
 # Mensaje de entrada del usuario
-
+openai.api_key = "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"
 
 # Configuración del repositorio de GitHub
 usuario_github = "marcelomrinelli"  # Tu nombre de usuario en GitHub
