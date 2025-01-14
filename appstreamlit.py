@@ -1,10 +1,18 @@
+# Mensaje de entrada del usuario
+
+
 import os
 import openai
 import streamlit as st
 import requests
 
-# Mensaje de entrada del usuario
-openai.api_key = "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"
+
+# Configurar la clave API para OpenAI
+from dotenv import load_dotenv
+print("Dotenv library imported successfully!")
+load_dotenv()
+api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key=api_key
 
 # Configuración del repositorio de GitHub
 usuario_github = "marcelomrinelli"  # Tu nombre de usuario en GitHub
@@ -35,6 +43,7 @@ def cargar_documentos(ruta=""):
             contenido = requests.get(url_archivo).text
             documentos[archivo['name']] = contenido
             print(f"Archivo leído desde GitHub: {archivo['name']}")
+            print(os.getcwd())
     return documentos
 
 def generar_respuesta(pregunta, contexto):
@@ -46,6 +55,7 @@ def generar_respuesta(pregunta, contexto):
         {"role": "user", "content": f"Contexto: {contexto}\n\nPregunta: {pregunta}"}
     ]
     
+    
     response = openai.ChatCompletion.create(
         model="gpt-4",
         messages=mensajes,
@@ -53,6 +63,7 @@ def generar_respuesta(pregunta, contexto):
         temperature=0.7,
     )
     return response['choices'][0]['message']['content'].strip()
+
 
 # Cargar los documentos al iniciar desde GitHub
 documentos = cargar_documentos(ruta)
