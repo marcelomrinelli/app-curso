@@ -6,7 +6,7 @@ import openai
 import streamlit as st
 import requests
 
-
+print(openai.api_base)
 # Configurar la clave API para OpenAI
 from dotenv import load_dotenv
 print("Dotenv library imported successfully!")
