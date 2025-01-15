@@ -6,7 +6,12 @@ import openai
 import streamlit as st
 import requests
 
+<<<<<<< HEAD
 #print(openai.api_base)
+=======
+
+print(openai.api_base)
+>>>>>>> 9f8238b232a91f23cad02b299c96d95e3e08e0b7
 # Configurar la clave API para OpenAI
 from dotenv import load_dotenv
 print("Dotenv library imported successfully!")
@@ -16,6 +21,12 @@ openai.api_key=ael repositorio de GitHub
 usuario_github = "marcelomrinelli"  # Tu nombre de usuario en GitHub
 repositorio = "app-curso"  # El nombre del repositorio
 ruta = ""  # La ruta dentro del repositorio, déjala vacía si es la raíz
+
+# Configuración del repositorio de GitHub
+usuario_github = "marcelomrinelli"  # Tu nombre de usuario en GitHub
+repositorio = "app-curso"  # El nombre del repositorio
+ruta = ""  # La ruta dentro del repositorio, déjala vacía si es la raíz
+
 
 # Función para obtener archivos desde un repositorio de GitHub
 def obtener_archivos_github(usuario, repositorio, ruta=""):
@@ -41,7 +52,7 @@ def cargar_documentos(ruta=""):
             contenido = requests.get(url_archivo).text
             documentos[archivo['name']] = contenido
             print(f"Archivo leído desde GitHub: {archivo['name']}")
-            print(os.getcwd())
+
     return documentos
 
 def generar_respuesta(pregunta, contexto):
