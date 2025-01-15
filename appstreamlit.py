@@ -6,15 +6,13 @@ import openai
 import streamlit as st
 import requests
 
-print(openai.api_base)
+#print(openai.api_base)
 # Configurar la clave API para OpenAI
 from dotenv import load_dotenv
 print("Dotenv library imported successfully!")
 load_dotenv()
 api_key = os.getenv('OPENAI_API_KEY')
-openai.api_key=api_key
-
-# Configuración del repositorio de GitHub
+openai.api_key=ael repositorio de GitHub
 usuario_github = "marcelomrinelli"  # Tu nombre de usuario en GitHub
 repositorio = "app-curso"  # El nombre del repositorio
 ruta = ""  # La ruta dentro del repositorio, déjala vacía si es la raíz
