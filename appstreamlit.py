@@ -5,7 +5,6 @@ import requests
 from dotenv import load_dotenv
 
 # Cargar las variables de entorno desde el archivo .env
-print("Dotenv library imported successfully!")
 load_dotenv()
 api_key = os.getenv('OPENAI_API_KEY')
 openai.api_key = api_key
@@ -52,7 +51,7 @@ def generar_respuesta(pregunta, contexto):
     ]
     
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-3.5-turbo",
         messages=mensajes,
         max_tokens=512,
         temperature=0.7,
@@ -75,3 +74,4 @@ if st.button("Enviar"):
         st.write(respuesta)
     else:
         st.warning("Por favor, escribe una pregunta.")
+
