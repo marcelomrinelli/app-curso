@@ -1,13 +1,10 @@
-# Mensaje de entrada del usuario
-
-
 import os
 import openai
 import streamlit as st
 import requests
 
 
-print(openai.api_base)
+#print(openai.api_base)
 # Configurar la clave API para OpenAI
 from dotenv import load_dotenv
 print("Dotenv library imported successfully!")
